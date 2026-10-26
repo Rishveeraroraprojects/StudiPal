@@ -1,0 +1,49 @@
+
+Things to do:
+
+The Idea:
+My idea is to build a offline study and focus tracker. It follows the design of a Tamagotchi with a modern revamp which is more minimalistic.
+It should be able to track a study or focus session through a normal timer, stopwatch and pomodoro, along with a menu showing all your statistics and your study streaks.
+It has simple animations of a character when you are in a study session or start or end it. Almost like a figure that grows or upgrades when you study more.
+Maybe has different animations showing that its bored or focussed or some way to indicate low battery aswell. 
+This all goes along with the fact that this will be small and portable, disconnected from the Internet to reduce distractions, chargeable by Type-C, 
+and has a basic speaker in build giving sound effects when you start or end a session and when the battery is low. The figure, animations and sound effects will all be based on retro game style.
+I want to build this because I feel that this could be useful for me given the fact that I am a high school student, and it can also help the community, including people who have trouble studying or focussing(part of this population).
+This idea is inspired based on some of the projects I am working on for my school submissions and also PewDiePie's recent videos related to hardware building and self-hosting.
+
+Websites to look at for parts:
+
+
+Steps:
+Find a display/screen that will be used
+Create basic shape, and design with the dimensions of the thing
+Look for the correct processor(raspberry Pi)
+Look for the other parts that I will need like type C port, small speaker and any other auxiliary parts
+Understand how will I code this and the softwares I need, get a basic understanding of them
+Understand what in the world is a PCB and whether I need one, then create it
+Make the designs with simple animations of the character and the sound effects
+Start coding the thing
+After software is ready and PCB is ready then 3D design a proper shell for the thing along with the buttons and speaker grill and type c port hole
+Documentation and complete all the deliverables to submit the project.
+
+
+https://roboticsdna.in/product/3-5-inch-tft-tm035kbh02-lcd-display/
+
+https://roboticsdna.in/product/4-3inch-capacitive-touch-hmi-display-dmg80480f043_01wtcz01/
+
+https://robosap.in/product/2-8-inch-spi-touch-screen-module-tft-display-240320/
+
+9th April: Have mostly decided that I will be using a ESP32.
+Started to look for ESP32 Boards integrated with a display.
+Realized that maybe the project will become touch screen based instead of buttons. 
+Possible:https://sharvielectronics.com/product/esp32-s3-development-board-with-1-28inch-round-touch-lcd-compact-size-accelerometer-and-gyroscope-sensor-waveshare/
+
+
+Note while looking for display compatibility with ESP32:ESP32 is a 3.3V device that supports SPI, I2C, and parallel interfaces
+
+16th April
+I have finalized using a ESP32 and a 1.3 inch non- touch screen.
+Screen https://robu.in/product/1-3-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-white/#tab-description
+
+Yet to finalize the exact microcontroller model. Found esp32 room and wrover
+
